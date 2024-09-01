@@ -1,0 +1,106 @@
+.info {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 928px;
+    max-height: 100%;
+    flex-direction: column;
+}
+
+.info h1 {
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.info p {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.info button {
+    height: 40px;
+    width: 240px;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    width: 350px;
+    min-height: 200px;
+    max-height: 100%;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.price-list {
+    min-height: 750px;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price-list h1 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.price-list li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.navigation-pill-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.navigation-pill-list p {
+    padding-right: 20px;
+}
+
+.pricing-card ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style:disc;
+}
+
+.card-grid .price {
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+}
+
+.price-label {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1E1E1E;
+    align-items: end;
+}
+
+.card-grid button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navigation-pill {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.navigation-pill.active {
+    transform: scale(1.1);
+}

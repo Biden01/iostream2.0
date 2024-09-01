@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-content {
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    width: 500px;
+}
+
+.form-content * {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form-content input {
+    height: 40px;
+    border: 0.5px solid #ced1d5;
+    border-radius: 5px;
+}
